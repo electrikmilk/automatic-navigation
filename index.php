@@ -21,9 +21,12 @@
 </header>
 <section>
 	<?php
-	$path = "Home.php";
+	$path = "Home.php"; // default
 	$query = str_replace("-"," ",$_GET['query']);
+
+	// Load requested content
 	if (isset($_GET['query'])) {
+		$query = str_replace("-"," ",$_GET['query']);
 		if (file_exists("content/$query.php")) {
 			$path = "$query.php";
 		} elseif (file_exists("content/$query.html")) {
