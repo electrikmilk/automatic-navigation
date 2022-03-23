@@ -5,11 +5,12 @@
 <html lang="en">
 <head>
 	<meta charset="utf8">
-	<title>My Website</title>
-	<link rel="stylesheet" href="/style.css"/>
-	<script type="text/javascript" href="/script.js"></script>
-
 	<meta name="viewport" content="width=device-width">
+
+	<title>My Website</title>
+
+	<link rel="stylesheet" href="/style.css"/>
+
 </head>
 <body>
 
