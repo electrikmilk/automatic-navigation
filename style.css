@@ -1,0 +1,41 @@
+/* Boiler plate */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #141414;
+		--foreground: #888888;
+		--text: #fafafa;
+	}
+}
+
+:root {
+	--background: #eeeeee;
+	--foreground: #ffffff;
+	--text: #141414;
+}
+
+body {
+	font-size: 16px;
+	line-height: 1.6;
+	padding: 0;
+	margin: 0;
+	color: var(--text);
+	background: var(--background);
+}
+
+header {
+	padding: 10px;
+	background: var(--foreground);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+section {
+	margin: 0 auto;
+	width: 90vw;
+	background: var(--foreground);
+	padding: 10px;
+	z-index: 2;
+	height: 100vh;
+}
